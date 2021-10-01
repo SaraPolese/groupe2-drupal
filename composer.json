@@ -16,9 +16,18 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/bootstrap5": "^1.0",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/extlink": "^1.6",
+        "drupal/metatag": "^1.16",
+        "drupal/paragraphs": "^1.12",
+        "drupal/pathauto": "^1.8",
+        "drupal/simple_gmap": "^3.0",
+        "drupal/smtp": "^1.0",
+        "drupal/webform": "^6.0",
         "drush/drush": "^10.6"
     },
     "conflict": {
