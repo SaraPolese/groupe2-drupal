@@ -1,0 +1,18 @@
+
+
+dawit-styling:
+  css:
+    theme:
+      css/style1.css: {}
+
+drupal.nav-tabs:
+  version: VERSION
+  js:
+    js/nav-tabs.js: {}
+  dependencies:
+    - core/matchmedia
+    - core/jquery
+    - core/drupal
+    - core/jquery.once
+    - core/drupal.debounce
+    - core/collapse
