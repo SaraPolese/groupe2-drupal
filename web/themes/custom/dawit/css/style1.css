@@ -1,6 +1,15 @@
 .contact h1 {
+    color: rgb(8, 1, 1) ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 500px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    display:inline-block;
+    font-weight: bold;
     color: red ;
 }
+
 .saraparax {
     background-attachment: fixed;
     background-position: center;
