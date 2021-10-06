@@ -13,4 +13,14 @@ function dawit_preprocess_html(&$variables) {
   if ($path == '/node/28') {
     $variables['attributes']['class'][] = 'contact';
   }
+  $current_url = Url::fromRoute('<current>');
+  $path = $current_url->toString(); 
+  if ($path == '/node/21') {
+    $variables['attributes']['class'][] = 'contact';
+  }
+  $current_url = Url::fromRoute('<current>');
+  $path = $current_url->toString(); 
+  if ($path == '/node/42') {
+    $variables['attributes']['class'][] = 'contact1';
+}
 }
