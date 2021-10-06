@@ -56,19 +56,17 @@ body > div.dialog-off-canvas-main-canvas.d-flex.flex-column.h-100 > main > div >
     font-style: italic;  
 
 }
-#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(1) > div.views-field.views-field-field-image{
-    margin-left: 150px;
-    margin-bottom: 25px;
 
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(1) > div.views-field.views-field-field-image > div > img{
+    margin-left: 150px;
 }
 #block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(2) > div.views-field.views-field-field-image > div > img{
     margin-left: 150px;
-    margin-bottom: 25px;
-
+    margin-bottom: 50px;
 }
-#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(3) > div.views-field.views-field-field-image{
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(3) > div.views-field.views-field-field-image > div > img{
     margin-left: 150px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 #block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(1) > div.views-field.views-field-body > div > p{
     font-family: 'Times New Roman', Times, serif; 
