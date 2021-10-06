@@ -7,8 +7,19 @@
     text-align: center;
     display:inline-block;
     font-weight: bold;
-    color: red ;
+   
+}.contact1 h1 {
+    color: rgb(8, 1, 1) ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    display:inline-block;
+    font-weight: bold;
+   
 }
+
 
 .saraparax {
     background-attachment: fixed;
@@ -16,4 +27,61 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('https://www.letournepage.com/wp-content/uploads/2019/12/2019.11-Lire-Local.arbre2_-1072x536-768x384.png');
+}
+
+.bg-dark{
+    background-color: black !important;
+}
+
+nav.navbar {
+    background-image: url('https://st4.depositphotos.com/1855397/i/600/depositphotos_292216778-stock-photo-texture-black-matte-plastic-black.jpg');
+}
+body > div > footer{
+    background-image: url("https://st4.depositphotos.com/1855397/i/600/depositphotos_292216778-stock-photo-texture-black-matte-plastic-black.jpg");
+}
+
+
+body > div.dialog-off-canvas-main-canvas.d-flex.flex-column.h-100 > main > div > div > div.order-2.order-lg-1.col-12.col-sm-6.col-lg-3{
+    margin-top: 15em;
+    margin-bottom: 15em; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+body > div.dialog-off-canvas-main-canvas.d-flex.flex-column.h-100 > main > div > div > div.order-3.col-12.col-sm-6.col-lg-3{
+    margin-top: 15em;
+    margin-bottom: 15em;  
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;  
+
+}
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(1) > div.views-field.views-field-field-image{
+    margin-left: 150px;
+    margin-bottom: 25px;
+
+}
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(2) > div.views-field.views-field-field-image > div > img{
+    margin-left: 150px;
+    margin-bottom: 25px;
+
+}
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(3) > div.views-field.views-field-field-image{
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(1) > div.views-field.views-field-body > div > p{
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(2) > div.views-field.views-field-body{
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    
+
+}
+#block-dawit-views-block-books-block-1 > div:nth-child(3) > div > div.view-content > div:nth-child(3) > div.views-field.views-field-body{
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+
 }
