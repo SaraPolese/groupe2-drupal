@@ -1,0 +1,32 @@
+uuid: e47cf5d0-a20d-4a3a-95b2-8ac262e41f5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bannier.body
+    - field.field.node.bannier.field_image_de_baniere
+    - node.type.bannier
+  module:
+    - text
+    - user
+id: node.bannier.teaser
+targetEntityType: node
+bundle: bannier
+mode: teaser
+content:
+  body:
+    label: visually_hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_image_de_baniere: true

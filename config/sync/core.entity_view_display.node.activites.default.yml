@@ -1,0 +1,30 @@
+uuid: 45aac04a-68ad-4371-b2c7-a4c72cf5a458
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.activites.field_blocs
+    - node.type.activites
+  module:
+    - entity_reference_revisions
+    - user
+id: node.activites.default
+targetEntityType: node
+bundle: activites
+mode: default
+content:
+  field_blocs:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 102
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,8 @@
+uuid: 07f8dfd0-f1cd-4c0b-938c-bef67be8e8a4
+langcode: en
+status: true
+dependencies: {  }
+id: bibliotheques
+label: Bibliothèques
+description: ''
+locked: false

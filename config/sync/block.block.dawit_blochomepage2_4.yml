@@ -1,0 +1,30 @@
+uuid: 5a96ac32-64ef-467e-b374-01a1d821de92
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:bloc_homepage:aaedf8b3-58e0-48ac-a37a-16873204d9c7'
+  module:
+    - block_content
+    - system
+  theme:
+    - dawit
+id: dawit_blochomepage2_4
+theme: dawit
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:aaedf8b3-58e0-48ac-a37a-16873204d9c7'
+settings:
+  id: 'block_content:aaedf8b3-58e0-48ac-a37a-16873204d9c7'
+  label: 'Bloc HOMEPAGE 2'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

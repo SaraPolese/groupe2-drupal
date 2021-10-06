@@ -1,0 +1,21 @@
+uuid: e9bc1865-1ddb-4dbb-9f4d-c746fb7d1b20
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.new
+    - field.storage.comment.field_1
+  module:
+    - datetime
+id: comment.new.field_1
+field_name: field_1
+entity_type: comment
+bundle: new
+label: '1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

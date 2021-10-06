@@ -1,0 +1,21 @@
+uuid: 0e720b0b-a7c8-4bea-8acf-b89c8abafd2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.new
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.new.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: new
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

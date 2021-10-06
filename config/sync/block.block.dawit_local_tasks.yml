@@ -1,0 +1,22 @@
+uuid: 5c9dcd58-8362-452a-9346-ac56f6d5c823
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dawit
+_core:
+  default_config_hash: yX9o6NcntZnXRDfbJoHY1pJwuXlumW44m5AMs347NN4
+id: dawit_local_tasks
+theme: dawit
+region: header
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

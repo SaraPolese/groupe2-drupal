@@ -1,0 +1,26 @@
+uuid: 6897dfec-f99c-4a2a-9738-8f0eed81b1fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: views_block__livre_block_1
+theme: bootstrap5
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:livre-block_1'
+settings:
+  id: 'views_block:livre-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/
+    negate: false

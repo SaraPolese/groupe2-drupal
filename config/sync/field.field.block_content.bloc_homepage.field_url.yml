@@ -1,0 +1,23 @@
+uuid: fa139e7b-68cf-45b3-9faf-119f560cc893
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bloc_homepage
+    - field.storage.block_content.field_url
+  module:
+    - link
+id: block_content.bloc_homepage.field_url
+field_name: field_url
+entity_type: block_content
+bundle: bloc_homepage
+label: URL
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

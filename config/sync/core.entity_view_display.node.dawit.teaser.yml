@@ -1,0 +1,32 @@
+uuid: d75836cd-1142-47b0-a5be-de65a02f58df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.dawit.body
+    - field.field.node.dawit.field_image
+    - node.type.dawit
+  module:
+    - text
+    - user
+id: node.dawit.teaser
+targetEntityType: node
+bundle: dawit
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true

@@ -1,0 +1,21 @@
+uuid: a9bf777f-0e67-46ed-893d-47e64efdf085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte
+    - paragraphs.paragraphs_type.bloc_activite
+  module:
+    - text
+id: paragraph.bloc_activite.field_texte
+field_name: field_texte
+entity_type: paragraph
+bundle: bloc_activite
+label: Texte
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

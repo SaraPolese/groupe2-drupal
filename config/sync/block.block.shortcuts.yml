@@ -1,0 +1,33 @@
+uuid: 1b2c340c-4299-4a80-ae1c-4e3848b61b78
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - shortcut
+    - system
+  theme:
+    - bootstrap5
+id: shortcuts
+theme: bootstrap5
+region: nav_additional
+weight: -5
+provider: null
+plugin: shortcuts
+settings:
+  id: shortcuts
+  label: 'Contact page'
+  provider: shortcut
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: 'https://groupe2.readigi.ch/contact'
+    negate: false
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      dawit: dawit
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

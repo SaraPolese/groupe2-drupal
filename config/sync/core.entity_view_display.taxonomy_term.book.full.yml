@@ -1,0 +1,22 @@
+uuid: f836a188-eb63-4a05-9772-0277442bd2f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - taxonomy.vocabulary.book
+  module:
+    - text
+id: taxonomy_term.book.full
+targetEntityType: taxonomy_term
+bundle: book
+mode: full
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

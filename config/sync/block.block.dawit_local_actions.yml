@@ -1,0 +1,20 @@
+uuid: 4a6c52fc-c8e9-42ef-ac67-176093df085e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dawit
+_core:
+  default_config_hash: MBqG1B5mr5-fPSCDyTR6z2zVTRxZ10XeS_pAw6C7za4
+id: dawit_local_actions
+theme: dawit
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

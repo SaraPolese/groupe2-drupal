@@ -1,0 +1,8 @@
+uuid: fd104cc2-b51c-4ee1-82ff-6bbe78e1f604
+langcode: en
+status: true
+dependencies: {  }
+id: new
+label: NEW
+target_entity_type_id: block_content
+description: EWDEW

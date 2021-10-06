@@ -1,0 +1,15 @@
+uuid: 131e44eb-505a-4e0f-927d-e1bcbcef3c1d
+langcode: en
+status: true
+dependencies: {  }
+name: photo
+label: photo
+effects:
+  3ef1984b-5d08-4a2e-a528-7fe2f0c3f5e9:
+    uuid: 3ef1984b-5d08-4a2e-a528-7fe2f0c3f5e9
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 500
+      anchor: center-center

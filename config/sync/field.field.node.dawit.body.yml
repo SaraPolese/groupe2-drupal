@@ -1,0 +1,23 @@
+uuid: 5d11c074-a6a8-4a72-ab10-de0d32dc5495
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dawit
+  module:
+    - text
+id: node.dawit.body
+field_name: body
+entity_type: node
+bundle: dawit
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

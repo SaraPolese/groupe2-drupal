@@ -1,0 +1,22 @@
+uuid: 106ce88c-c0a6-43c9-9cec-84201c7ce6a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bibliotheque
+id: node.bibliotheque.promote
+field_name: promote
+entity_type: node
+bundle: bibliotheque
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

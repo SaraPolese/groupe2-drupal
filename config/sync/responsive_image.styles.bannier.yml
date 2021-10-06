@@ -1,0 +1,31 @@
+uuid: 610c749c-3e5a-466f-abc0-00ccadaa57ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.bannier2
+    - image.style.bannier4
+    - image.style.bannierg
+    - image.style.large
+  theme:
+    - bootstrap5
+id: bannier
+label: bannier
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap5.screen.xl-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: bannierg
+  -
+    breakpoint_id: bootstrap5.screen.md-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: bannier4
+  -
+    breakpoint_id: bootstrap5.screen.xs-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: bannier2
+breakpoint_group: bootstrap5.screen
+fallback_image_style: large

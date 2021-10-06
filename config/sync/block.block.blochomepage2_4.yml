@@ -1,0 +1,30 @@
+uuid: ce093b56-e50a-4e9c-8d2b-742141988123
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:bloc_homepage:aaedf8b3-58e0-48ac-a37a-16873204d9c7'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap5
+id: blochomepage2_4
+theme: bootstrap5
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:aaedf8b3-58e0-48ac-a37a-16873204d9c7'
+settings:
+  id: 'block_content:aaedf8b3-58e0-48ac-a37a-16873204d9c7'
+  label: 'Bloc HOMEPAGE 2'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

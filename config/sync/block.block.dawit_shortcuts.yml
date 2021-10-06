@@ -1,0 +1,33 @@
+uuid: c43ba540-e48a-467e-920a-ccff5e1d0159
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - shortcut
+    - system
+  theme:
+    - dawit
+id: dawit_shortcuts
+theme: dawit
+region: nav_additional
+weight: -5
+provider: null
+plugin: shortcuts
+settings:
+  id: shortcuts
+  label: 'Contact page'
+  provider: shortcut
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: 'https://groupe2.readigi.ch/contact'
+    negate: false
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      dawit: dawit
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
