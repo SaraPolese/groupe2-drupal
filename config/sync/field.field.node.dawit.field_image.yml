@@ -1,0 +1,38 @@
+uuid: 65defb96-d9bf-41df-90f5-ad92f82b24b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.dawit
+  module:
+    - image
+id: node.dawit.field_image
+field_name: field_image
+entity_type: node
+bundle: dawit
+label: image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 480600b4-d94e-485d-abd0-a6053f367965
+    alt: ''
+    title: ''
+    width: 296
+    height: 475
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

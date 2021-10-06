@@ -1,0 +1,26 @@
+uuid: eae0237e-2020-44cf-9423-ddb5b570dde2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ewtwt.field_rer
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.ewtwt
+  module:
+    - image
+id: paragraph.ewtwt.default
+targetEntityType: paragraph
+bundle: ewtwt
+mode: default
+content:
+  field_rer:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,8 @@
+uuid: a2fe5315-dea5-41fb-acaf-90f20021ea4d
+langcode: en
+status: true
+dependencies: {  }
+name: bOOK
+vid: book
+description: 'think and grow riche'
+weight: 0

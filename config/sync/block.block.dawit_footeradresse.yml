@@ -1,0 +1,25 @@
+uuid: 7a351936-bfe0-46e3-a2a2-d9006ddae3e1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:705916de-ee0b-4ff2-bd02-b811a73834d1'
+  module:
+    - block_content
+  theme:
+    - dawit
+id: dawit_footeradresse
+theme: dawit
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:705916de-ee0b-4ff2-bd02-b811a73834d1'
+settings:
+  id: 'block_content:705916de-ee0b-4ff2-bd02-b811a73834d1'
+  label: 'Footer adresse'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

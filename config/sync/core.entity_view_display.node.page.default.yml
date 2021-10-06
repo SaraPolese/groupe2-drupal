@@ -3,11 +3,41 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
+    - field.field.node.page.field_formulaire
+    - field.field.node.page.field_map
     - node.type.page
   module:
-    - text
+    - ds
+    - simple_gmap
     - user
+    - webform
+third_party_settings:
+  ds:
+    layout:
+      id: layout_twocol
+      library: layout_discovery/twocol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      top:
+        - node_title
+      first:
+        - field_map
+      second:
+        - field_formulaire
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          'link class': ''
+          wrapper: h1
+          class: ''
+          link: false
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
@@ -15,14 +45,33 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 100
-    region: content
-    settings: {  }
+  field_formulaire:
+    type: webform_entity_reference_entity_view
+    weight: 2
+    region: second
+    label: above
+    settings:
+      source_entity: true
     third_party_settings: {  }
-  links:
-    weight: 101
-    region: content
-hidden: {  }
+  field_map:
+    type: simple_gmap
+    weight: 1
+    region: first
+    label: above
+    settings:
+      include_map: true
+      apikey: ''
+      iframe_width: '600'
+      iframe_height: '400'
+      iframe_title: ''
+      static_scale: 1
+      link_text: 'View larger map'
+      zoom_level: 14
+      map_type: m
+      langcode: en
+      include_static_map: false
+      include_link: false
+      include_text: false
+    third_party_settings: {  }
+hidden:
+  links: true

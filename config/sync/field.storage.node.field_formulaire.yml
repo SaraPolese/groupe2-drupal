@@ -1,0 +1,20 @@
+uuid: 11def687-76ff-4fb3-aac8-2dec2d0b8f4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - webform
+id: node.field_formulaire
+field_name: field_formulaire
+entity_type: node
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,57 @@
+uuid: 5ad6e251-db23-44f1-9e54-4259fa0e0c20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bannier.body
+    - field.field.node.bannier.field_image_de_baniere
+    - node.type.bannier
+    - responsive_image.styles.wide
+  module:
+    - ds
+    - responsive_image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - node_title
+        - body
+        - field_image_de_baniere
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+id: node.bannier.default
+targetEntityType: node
+bundle: bannier
+mode: default
+content:
+  body:
+    label: visually_hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_de_baniere:
+    weight: 2
+    label: visually_hidden
+    settings:
+      responsive_image_style: wide
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+hidden:
+  links: true

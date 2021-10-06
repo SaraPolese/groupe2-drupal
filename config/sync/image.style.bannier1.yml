@@ -1,0 +1,15 @@
+uuid: cd954880-3c12-47c8-a12e-043d5fe18527
+langcode: en
+status: true
+dependencies: {  }
+name: bannier1
+label: 'image responsive'
+effects:
+  d06fc69f-4f0c-4fa8-ab02-cab120bced76:
+    uuid: d06fc69f-4f0c-4fa8-ab02-cab120bced76
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 700
+      anchor: center-center

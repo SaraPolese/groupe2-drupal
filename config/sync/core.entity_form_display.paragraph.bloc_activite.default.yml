@@ -1,0 +1,45 @@
+uuid: 3de95c02-ce20-433d-a68f-ca2a995b32b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bloc_activite.field_image
+    - field.field.paragraph.bloc_activite.field_texte
+    - field.field.paragraph.bloc_activite.field_titre
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.bloc_activite
+  module:
+    - image
+    - text
+id: paragraph.bloc_activite.default
+targetEntityType: paragraph
+bundle: bloc_activite
+mode: default
+content:
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_texte:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titre:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

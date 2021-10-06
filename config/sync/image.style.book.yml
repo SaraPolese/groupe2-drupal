@@ -1,0 +1,15 @@
+uuid: e831d9e9-c0c6-401e-895e-cbcfd327e41b
+langcode: en
+status: true
+dependencies: {  }
+name: book
+label: Book
+effects:
+  4ffb152f-c70f-4240-8487-e9c46b3def1d:
+    uuid: 4ffb152f-c70f-4240-8487-e9c46b3def1d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 500
+      anchor: center-center

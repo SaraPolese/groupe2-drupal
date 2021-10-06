@@ -1,0 +1,22 @@
+uuid: 1c6514ac-5835-412c-b2e8-f814cea73ae9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.activites.field_blocs
+    - node.type.activites
+  module:
+    - user
+id: node.activites.teaser
+targetEntityType: node
+bundle: activites
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_blocs: true

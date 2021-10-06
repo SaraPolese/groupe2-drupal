@@ -1,0 +1,22 @@
+uuid: a2c6e3d7-0f7c-4a1a-8e64-6e95312fc7ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dawit
+_core:
+  default_config_hash: 1o0W13wt232YmsDYiRA5xtlFq0L2WNS7FmIVbBeuhIY
+id: dawit_content
+theme: dawit
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

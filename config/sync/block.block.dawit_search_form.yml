@@ -1,0 +1,23 @@
+uuid: 5cf3ddcc-cce4-48ab-ba1d-c7f54f0d556b
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - dawit
+_core:
+  default_config_hash: HZJ8894mYbX0pdeltUdfnQjONb-BnkflWDqEm_x13m4
+id: dawit_search_form
+theme: dawit
+region: nav_additional
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

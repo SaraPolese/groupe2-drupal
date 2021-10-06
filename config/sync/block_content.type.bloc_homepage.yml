@@ -1,0 +1,8 @@
+uuid: 9ae87ef2-b4e5-4255-aaf0-3dba30e43b60
+langcode: en
+status: true
+dependencies: {  }
+id: bloc_homepage
+label: 'Bloc homepage'
+revision: 0
+description: ''

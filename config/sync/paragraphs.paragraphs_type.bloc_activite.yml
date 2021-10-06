@@ -1,0 +1,10 @@
+uuid: 99044bc0-88cd-47f5-b808-0650ca6d250e
+langcode: en
+status: true
+dependencies: {  }
+id: bloc_activite
+label: 'Bloc activité'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

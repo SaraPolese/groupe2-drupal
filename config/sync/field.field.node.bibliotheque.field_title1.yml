@@ -1,0 +1,19 @@
+uuid: 765fce48-1b01-4937-affc-e790400ae08d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title1
+    - node.type.bibliotheque
+id: node.bibliotheque.field_title1
+field_name: field_title1
+entity_type: node
+bundle: bibliotheque
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

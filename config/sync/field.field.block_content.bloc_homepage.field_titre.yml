@@ -1,0 +1,19 @@
+uuid: ca791ec1-0fa2-4df8-b98c-71f03dd16b7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bloc_homepage
+    - field.storage.block_content.field_titre
+id: block_content.bloc_homepage.field_titre
+field_name: field_titre
+entity_type: block_content
+bundle: bloc_homepage
+label: Titre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

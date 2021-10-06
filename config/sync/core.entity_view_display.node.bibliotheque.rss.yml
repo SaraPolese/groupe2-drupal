@@ -1,0 +1,48 @@
+uuid: 0a8b21a8-e0f2-4803-9b58-2cfbcf7a29a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.bibliotheque.body
+    - field.field.node.bibliotheque.field_auteur
+    - field.field.node.bibliotheque.field_category
+    - field.field.node.bibliotheque.field_date
+    - field.field.node.bibliotheque.field_image
+    - field.field.node.bibliotheque.field_title1
+    - node.type.bibliotheque
+  module:
+    - image
+    - text
+    - user
+id: node.bibliotheque.rss
+targetEntityType: node
+bundle: bibliotheque
+mode: rss
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_auteur: true
+  field_category: true
+  field_date: true
+  field_title1: true

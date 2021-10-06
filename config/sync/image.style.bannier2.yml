@@ -1,0 +1,15 @@
+uuid: a683cd9e-5692-4cd1-a6ca-da66ccd490e3
+langcode: en
+status: true
+dependencies: {  }
+name: bannier2
+label: bannier1
+effects:
+  e09e2e12-540d-4985-8a52-9c8a792c3ae0:
+    uuid: e09e2e12-540d-4985-8a52-9c8a792c3ae0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

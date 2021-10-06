@@ -1,0 +1,22 @@
+uuid: 1600f0f7-9f3d-48eb-bacb-9d7f0a4b03c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dawit
+_core:
+  default_config_hash: 9LdMj38y4GDi23GrIUtIZIV1bJEn1C47N19jrswvcLc
+id: dawit_messages
+theme: dawit
+region: content
+weight: -10
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

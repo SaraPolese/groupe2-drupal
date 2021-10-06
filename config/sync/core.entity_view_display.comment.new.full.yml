@@ -1,0 +1,39 @@
+uuid: ecbe8c6c-725c-4a6f-a73c-e4f9b4ab5a78
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.new
+    - core.entity_view_mode.comment.full
+    - field.field.comment.new.comment_body
+    - field.field.comment.new.field_1
+  module:
+    - datetime
+    - text
+id: comment.new.full
+targetEntityType: comment
+bundle: new
+mode: full
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_1:
+    weight: 101
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

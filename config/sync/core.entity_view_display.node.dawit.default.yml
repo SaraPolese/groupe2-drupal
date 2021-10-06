@@ -1,0 +1,40 @@
+uuid: e250e401-b1cf-4d1a-9f33-251a4639c330
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dawit.body
+    - field.field.node.dawit.field_image
+    - image.style.large
+    - node.type.dawit
+  module:
+    - image
+    - text
+    - user
+id: node.dawit.default
+targetEntityType: node
+bundle: dawit
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

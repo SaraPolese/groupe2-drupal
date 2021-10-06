@@ -1,0 +1,30 @@
+uuid: 6ce00753-30fb-487c-bedb-e65e0782a0bb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:42acbc41-dc16-457b-8730-e56b0fe73cbf'
+  module:
+    - block_content
+    - system
+  theme:
+    - dawit
+id: dawit_ad
+theme: dawit
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:42acbc41-dc16-457b-8730-e56b0fe73cbf'
+settings:
+  id: 'block_content:42acbc41-dc16-457b-8730-e56b0fe73cbf'
+  label: AD
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: ' <front> i'
+    negate: false

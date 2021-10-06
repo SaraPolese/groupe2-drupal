@@ -1,0 +1,29 @@
+uuid: 70733c13-c082-485d-ac23-a219cb20216a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.all_books
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__all_books_block_1_3
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:all_books-block_1'
+settings:
+  id: 'views_block:all_books-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/34
+    negate: false

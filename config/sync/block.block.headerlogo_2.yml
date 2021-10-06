@@ -1,0 +1,25 @@
+uuid: b090b8d3-d008-47fd-8ab8-9d756f40b31a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:db0a86de-5de1-48ed-a039-eb5688e9600d'
+  module:
+    - block_content
+  theme:
+    - bootstrap5
+id: headerlogo_2
+theme: bootstrap5
+region: nav_branding
+weight: 0
+provider: null
+plugin: 'block_content:db0a86de-5de1-48ed-a039-eb5688e9600d'
+settings:
+  id: 'block_content:db0a86de-5de1-48ed-a039-eb5688e9600d'
+  label: 'Header logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

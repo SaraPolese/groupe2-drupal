@@ -1,0 +1,25 @@
+uuid: 4dd2d112-8e70-43ba-9f61-33b479a674ab
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:db0a86de-5de1-48ed-a039-eb5688e9600d'
+  module:
+    - block_content
+  theme:
+    - dawit
+id: dawit_headerlogo
+theme: dawit
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:db0a86de-5de1-48ed-a039-eb5688e9600d'
+settings:
+  id: 'block_content:db0a86de-5de1-48ed-a039-eb5688e9600d'
+  label: 'Header logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

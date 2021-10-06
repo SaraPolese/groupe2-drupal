@@ -1,0 +1,10 @@
+uuid: fe16b3a5-5f94-4a18-9064-6826893048b4
+langcode: en
+status: true
+dependencies: {  }
+id: contributor
+label: Contributor
+weight: 3
+is_admin: null
+permissions:
+  - 'edit any activites content'

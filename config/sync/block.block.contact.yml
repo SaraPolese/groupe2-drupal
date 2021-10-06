@@ -1,0 +1,25 @@
+uuid: 8da241db-de13-4357-88dd-07110af4ffca
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e387f013-138c-4f93-8f15-3f7d0011be2c'
+  module:
+    - block_content
+  theme:
+    - bootstrap5
+id: contact
+theme: bootstrap5
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:e387f013-138c-4f93-8f15-3f7d0011be2c'
+settings:
+  id: 'block_content:e387f013-138c-4f93-8f15-3f7d0011be2c'
+  label: Contact
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

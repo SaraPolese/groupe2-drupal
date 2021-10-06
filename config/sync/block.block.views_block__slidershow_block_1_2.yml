@@ -1,0 +1,29 @@
+uuid: d675c31f-95df-458d-9414-10138d0b72aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slidershow
+  module:
+    - system
+    - views
+  theme:
+    - dawit
+id: views_block__slidershow_block_1_2
+theme: dawit
+region: breadcrumb
+weight: -12
+provider: null
+plugin: 'views_block:slidershow-block_1'
+settings:
+  id: 'views_block:slidershow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

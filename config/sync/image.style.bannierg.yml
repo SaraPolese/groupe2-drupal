@@ -1,0 +1,15 @@
+uuid: 718a4f56-ae40-4b55-aef9-017fa930a79f
+langcode: en
+status: true
+dependencies: {  }
+name: bannierg
+label: bannierG
+effects:
+  2f85dec1-5dbf-4eda-a7f2-835139c09883:
+    uuid: 2f85dec1-5dbf-4eda-a7f2-835139c09883
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 500
+      anchor: center-center

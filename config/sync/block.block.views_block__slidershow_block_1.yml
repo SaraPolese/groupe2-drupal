@@ -1,0 +1,29 @@
+uuid: a2536e16-935d-4e84-b046-ecf01677817f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slidershow
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__slidershow_block_1
+theme: bootstrap5
+region: breadcrumb
+weight: -12
+provider: null
+plugin: 'views_block:slidershow-block_1'
+settings:
+  id: 'views_block:slidershow-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

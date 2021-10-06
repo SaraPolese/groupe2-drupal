@@ -1,0 +1,8 @@
+uuid: bde4f7f4-b481-4ff6-b67f-40261105e303
+langcode: en
+status: true
+dependencies: {  }
+name: READER
+vid: reader
+description: 'thing and grow riche'
+weight: 0

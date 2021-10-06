@@ -1,0 +1,29 @@
+uuid: 8f9b6d7d-c4bf-48a6-b008-a0995e88a8e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.books
+  module:
+    - system
+    - views
+  theme:
+    - dawit
+id: dawit_views_block__books_block_1_2
+theme: dawit
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:books-block_1'
+settings:
+  id: 'views_block:books-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/36
+    negate: false

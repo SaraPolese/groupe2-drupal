@@ -1,0 +1,22 @@
+uuid: 478c8faf-aafa-4b9f-984a-53a04dd6eb28
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dawit
+_core:
+  default_config_hash: VShtwe72J2j41BJzApoNbs8l554EpngM5RTObxM7yiw
+id: dawit_breadcrumbs
+theme: dawit
+region: breadcrumb
+weight: -13
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

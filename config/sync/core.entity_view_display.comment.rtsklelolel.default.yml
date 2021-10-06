@@ -1,0 +1,27 @@
+uuid: 08a5880e-b7d3-43bb-8287-d480ed2f68ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.rtsklelolel
+    - field.field.comment.rtsklelolel.comment_body
+  module:
+    - text
+id: comment.rtsklelolel.default
+targetEntityType: comment
+bundle: rtsklelolel
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
