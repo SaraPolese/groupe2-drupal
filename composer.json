@@ -28,6 +28,7 @@
         "drupal/pathauto": "^1.8",
         "drupal/simple_gmap": "^3.0",
         "drupal/smtp": "^1.0",
+        "drupal/views_slideshow": "^4.8",
         "drupal/webform": "^6.0",
         "drush/drush": "^10.6"
     },
